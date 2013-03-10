@@ -1,0 +1,30 @@
+# Ignore packages.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore logs and databases.
+*.log
+*.sql
+_notes/
+
+# Ignore OS generated files.
+.DS_Store
+ehthumbs.db
+Thumbs.db
+._*
+
+# Ignore Compass files
+.sass-cache
+
+# Ignore Guardfile
+Guardfile
+
+# Ignore Sublime Text files
+*.sublime-project
+*.sublime-workspace
