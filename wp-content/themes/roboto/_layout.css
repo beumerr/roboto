@@ -1,0 +1,26 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wcanavan\/Sites\/roboto\/wp-content\/themes\/roboto\/sass\/_layout\.scss}line{font-family:\000033}}
+.splash:before,
+.upcoming-show:before, .splash:after,
+.upcoming-show:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wcanavan\/Sites\/roboto\/wp-content\/themes\/roboto\/sass\/_layout\.scss}line{font-family:\000038}}
+.splash:after,
+.upcoming-show:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wcanavan\/Sites\/roboto\/wp-content\/themes\/roboto\/sass\/_layout\.scss}line{font-family:\0000326}}
+.splash .date,
+.upcoming-show .date {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wcanavan\/Sites\/roboto\/wp-content\/themes\/roboto\/sass\/_layout\.scss}line{font-family:\0000330}}
+.splash .show-title,
+.upcoming-show .show-title {
+  float: left;
+  background: blue;
+}

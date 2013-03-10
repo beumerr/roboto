@@ -1,0 +1,625 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"gall",
+				"gallery-upcoming"
+			],
+			[
+				"bac",
+				"background-with-italics"
+			],
+			[
+				"def",
+				"default-stack-bold"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"Soure",
+				"SourceSansProBold"
+			],
+			[
+				"face",
+				"facebook_event_link"
+			],
+			[
+				"the",
+				"the_field"
+			],
+			[
+				"splas",
+				"splashpost"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"main",
+				"main-header"
+			],
+			[
+				"single",
+				"single-content"
+			],
+			[
+				"margin-",
+				"margin-trailer"
+			],
+			[
+				"men",
+				"menu-item-67"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"tw",
+				"tw	text-wrap"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"transition-",
+				"transition-property"
+			],
+			[
+				"fot",
+				"footer"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"outp",
+				"output_style"
+			],
+			[
+				"gre",
+				"green-light"
+			],
+			[
+				"font-stack",
+				"font-stack-sub-headers"
+			],
+			[
+				"clea",
+				"clearfix"
+			],
+			[
+				"nav",
+				"nav"
+			],
+			[
+				"font-star",
+				"font-stack-sub-headers"
+			],
+			[
+				"font-",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"d",
+				"Set Syntax: D"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"ac",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"jad",
+				"Set Syntax: Jade"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"sas",
+				"Set Syntax: SASS"
+			],
+			[
+				"SASS",
+				"Set Syntax: SASS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 555.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_vars.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_modules.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/booking.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_layout.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/functions.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_typography.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/category.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/header.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_base.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/gallery.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/footer.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_media.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/loop-single.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/loop-page.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/comments.php",
+		"/Users/wcanavan/Library/Application Support/Sublime Text 2/Packages/PHP/PHP.tmLanguage",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/single-show.php",
+		"/Users/wcanavan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wcanavan/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/style.css",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/_theme.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/index.php",
+		"/Users/wcanavan/Library/Application Support/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/base.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/vars.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/front.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/theme.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/typography.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/layout.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/style.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/config.rb",
+		"/Users/wcanavan/Sites/sassypgh/config.rb",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/modules.scss",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/fonts/nevis/stylesheet.css",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sass/html, body, div, span, applet, object, iframe,",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/about.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/fonts/sourcesans/stylesheet.css",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/loop.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/README.md",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/archive-show.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/loop-show.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/sidebar-footer.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/archive-post.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/booking copy.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/membership.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/gallery copy.php",
+		"/Users/wcanavan/Sites/Roboto/wp-content/themes/roboto/page copy.php",
+		"/Users/wcanavan/Sites/Roboto/wp-config-sample.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/program.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/_typography.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/front.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/_base.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/_theme.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/style.css",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/get-involved.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_home.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/header.php",
+		"/Users/wcanavan/Sites/GRNC/searchreplacedb2.php",
+		"/Users/wcanavan/Downloads/searchreplacedb2.php",
+		"/Users/wcanavan/Sites/RTTR/wp-content/themes/rttr/header.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/_vars.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_programs.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/_layout.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_program.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_get-involved.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_single.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/loop-single.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_news.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/single.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/index.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/news.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/style.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/programs.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/about.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/pages/_about.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/config.rb",
+		"/Users/wcanavan/Sites/CC/sass/screen.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/loop-attachment.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/loop-page.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/functions.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sidebar-footer.php",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/footer.php",
+		"/Users/wcanavan/Sites/RTTR/wp-content/themes/rttr/sass/screen.scss",
+		"/Users/wcanavan/Sites/RTTR/wp-content/themes/rttr/sass/_typography.scss",
+		"/Users/wcanavan/Sites/CC/screen.css",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/_reset.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/fonts/osp-din/stylesheet.css",
+		"/Users/wcanavan/Sites/CC/config.rb",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/vars.scss",
+		"/Users/wcanavan/Sites/GRNC/wp-content/themes/GRNC/sass/untitled",
+		"/Users/wcanavan/Sites/RTTR/wp-content/themes/rttr/index.php",
+		"/Users/wcanavan/Sites/roboto/wp-content/themes/roboto/style.css",
+		"/Users/wcanavan/Sites/GRNC/wp-config.php",
+		"/Users/wcanavan/Downloads/gist4527549-b69dad0d6a8e7f7ba7084ba97c20cc90cfcbb44f/gistfile1.md",
+		"/Users/wcanavan/Sites/CC/jade/index.jade",
+		"/Users/wcanavan/Sites/CC/uncompiled/index.jade",
+		"/Users/wcanavan/Downloads/Theano-Didot-fontfacekit/stylesheet.css",
+		"/Users/wcanavan/Sites/rttr/wp-content/themes/rttr/sass/_typography.scss",
+		"/Users/wcanavan/Sites/CC/fonts/didot/stylesheet.css",
+		"/Users/wcanavan/Sites/CC/index.html",
+		"/Users/wcanavan/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/wcanavan/Sites/CC/index.markdown",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_mixins.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_media.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/style.css",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_theme.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/index.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/archive-bhf-releases.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/wpsc-products_page.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_layout.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/archive-bhf-roster.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/header.php",
+		"/Users/wcanavan/Sites/rttr/wp-content/themes/rttr/js/enquire.js/grunt.js",
+		"/Users/wcanavan/Design/RTTR/images/styx4.svg",
+		"/Users/wcanavan/Sites/rttr/wp-content/themes/rttr/header.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_base.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/functions.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/config.rb",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_intro.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/footer.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/style.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_typography.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_modules.scss",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_layout.sass",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_base.sass",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf3/sass/_intro.sass",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf2/footer.php",
+		"/Volumes/Website/someideas.info/htdocs/wp-content/themes/bhf2/archive-bhf-releases.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"functions.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-med",
+			"one-half",
+			"li",
+			"ul",
+			"splashargs",
+			"author",
+			"faci",
+			"li",
+			" \n",
+			"li",
+			"<\n",
+			"li",
+			"ul",
+			"li",
+			"><",
+			"a",
+			"https",
+			"ul",
+			"swap",
+			"include",
+			"quadrary",
+			".upcoming-show",
+			"upcoming-show",
+			"upcoming",
+			"upccom",
+			"%cf",
+			"=\"date",
+			"clearfix",
+			"tag-",
+			".clear",
+			".ir",
+			"l('",
+			"text_field",
+			"twitter",
+			");",
+			"official_website",
+			"fficial_website",
+			"official_website",
+			"splash",
+			"archive",
+			"shows",
+			"mail",
+			"book",
+			"Book",
+			"show",
+			"book",
+			"Book",
+			"book",
+			"Book",
+			".mis",
+			".mission",
+			".main-nav",
+			"aside",
+			"adju",
+			"$size",
+			";\n",
+			"back",
+			"$size",
+			"size",
+			"staff",
+			"Staff",
+			"staff",
+			"repeater_field_name",
+			"'about.jpg'",
+			".jpg",
+			"bannerimg",
+			"book",
+			"gothic-",
+			"OSP-DIN",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"gothic",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"OSP-DIN",
+			"osp-din",
+			"ops",
+			"mypages",
+			"Book",
+			"Books",
+			"books",
+			"Books",
+			"culture",
+			"5em",
+			"TheanoDidotRegular",
+			"TheanoDidot-Regular-webfont",
+			"TheanoDidotRegular",
+			"TheanoDidot-Regular-webfont",
+			"search",
+			"release",
+			"thumb",
+			"neste",
+			"\n  ",
+			"roster",
+			"Roster",
+			"Roster Page",
+			"Roster Page\n				",
+			"Roster\n				",
+			"\n				",
+			"Roster Page",
+			"create",
+			"register",
+			"Band",
+			"Member",
+			"Genre",
+			"background",
+			"icon",
+			"menu-icon",
+			"contact",
+			"menu-icon",
+			"entry-cat",
+			"front-title",
+			"front-date",
+			"flex",
+			"front-date",
+			".flexslider li",
+			"span.tothe",
+			"tothe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Didot",
+			"/fonts/Didot/Didot",
+			"Didot",
+			"Release\n",
+			"(\n",
+			"Relese",
+			"\n				",
+			"Release",
+			"Roster Member",
+			"pages",
+			"Page",
+			"Member",
+			"Band",
+			"' "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}

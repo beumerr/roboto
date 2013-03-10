@@ -1,0 +1,65 @@
+// ========
+// Includes
+// ========
+
+@import "compass";
+@import "toolkit";
+
+// ======
+// Colors
+// ======
+
+$deep-red:          hsl(355, 67.5%, 50%);
+$medium-grey:       hsl(215, 2%, 50%);
+$light-grey:        hsl(210, 4%, 90%);
+$dark-grey:         hsl(270, 1%, 25%);
+
+$primary-color:     $deep-red;
+$secondary-color:   $medium-grey;
+$tertiary-color:    $light-grey;
+$quadernary-color:  $dark-grey;
+$quinary-color:     white;
+
+// ======
+// Layout
+// ======
+
+$alley:       .5em;
+$alley-med:   1em;
+$alley-lrg:   1.5em;
+
+
+// ================
+// Media Directives
+// ================
+
+@import "breakpoint";
+
+$breakpoints-to-ems: true;
+
+$bp-med: 600px;
+$bp-lrg: 900px;
+
+$bp-med-to-lrg: $bp-med ($bp-lrg - .1);
+
+
+
+// ==========
+// Typography
+// ==========
+
+@mixin default-stack {
+  font-family: 'SourceSansProRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin default-stack-italic {
+  font-family: 'SourceSansProItalic';
+}
+
+@mixin default-stack-bold {
+  font-family: 'SourceSansProBold';
+}
+
+@mixin alternate-stack {
+  font-family: 'nevis', Helvetica, "Helvetica Neue", Arial, sans-serif;
+}

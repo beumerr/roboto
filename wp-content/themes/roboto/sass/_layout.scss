@@ -1,0 +1,66 @@
+@mixin one-half {
+  width: 50%;
+  float: left;
+}
+
+%one-half {
+  @include one-half;
+}
+
+@mixin one-third {
+  width: 33.32%;
+  float: left;
+}
+
+%one-third {
+  @include one-third;
+}
+
+// ======
+// Global
+// ======
+
+.header-main,
+.content-main,
+.footer-main {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+// =======
+// Gallery
+// =======
+
+.gallery-about,
+.gallery-upcoming {
+  @include breakpoint($bp-med) {
+    @include one-half;
+  }
+}
+
+.gallery-about,
+.gallery-upcoming,
+.gallery-pictures {
+  @include breakpoint($bp-lrg) {
+    @include one-third;
+  }
+}
+
+// =======
+// Booking
+// =======
+
+.booking-band,
+.booking-promoter {
+  @include breakpoint($bp-med) {
+    @include one-half;
+  }
+}
+
+.booking-explanation,
+.booking-band,
+.booking-promoter {
+  @include breakpoint($bp-lrg) {
+    @include one-third;
+  }
+}

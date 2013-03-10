@@ -1,0 +1,185 @@
+%default-stack-italic {
+  @include default-stack-italic;
+}
+
+%default-stack-bold {
+  @include default-stack-bold;
+}
+
+%alternate-stack {
+  @include alternate-stack;
+}
+
+%background-with-italics {  
+  background: $tertiary-color;
+  
+  @extend %default-stack-italic;
+  color: $secondary-color;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+%date-block {
+  color: white;
+  background: $primary-color;
+  text-align: center;
+  @include vertical-center;
+  @extend %default-stack-bold;
+  
+  .month {
+    display: block;
+    text-transform: lowercase;
+    width: 100%;
+  }
+  
+  .day {
+    display:block;
+  }
+}
+
+%date-block-small {
+  @extend %date-block;
+  width: 3em;
+  height: 3em;
+
+  .day {
+    font-size: 1.75em;
+  }
+}
+
+%date-block-large {
+  @extend %date-block;
+  width: 6em;
+  height: 6em;
+  padding-top: .5em;
+
+  .month {
+    font-size: 1.5em;
+  }
+
+  .day {
+    font-size: 4em;
+  }
+}
+
+// ======
+// Header
+// ======
+
+.header-main {
+  text-align: center;
+}
+
+.site-title {
+  @extend %alternate-stack;
+  text-transform: uppercase;
+  font-size: 2em;
+  .the-mr,
+  .project {
+    @extend %visuallyhidden;
+  }
+}
+
+.footer-nav-link {
+  display: inline-block;
+  padding: .5em;
+  background: $quadernary-color;
+  color: white;
+  @extend %alternate-stack;
+  text-transform: uppercase;
+}
+
+.header-main .nav-main {
+  @extend %hidden;
+}
+
+.nav-main {
+  text-transform: uppercase;
+  @extend %alternate-stack;
+}
+
+// ======
+// Footer
+// ======
+
+.footer-main {
+  text-align: center;
+}
+
+.title-footer-nav {
+  @extend %text-with-background;
+  @extend %background-with-italics;
+}
+
+.footer-main .nav-main {
+  a {
+    @extend %text-with-background;
+
+    @include link-colors(white);
+    background: $quadernary-color;
+  }
+}
+
+// =====
+// Front
+// =====
+
+.splash .date {
+  @extend %date-block-large;
+}
+
+.blurb {
+  color: white;
+  @extend %default-stack-italic;
+}
+
+.upcoming {
+  h2 {
+    @extend %text-with-background;
+    @extend %background-with-italics;
+  }
+  .date {
+    @extend %date-block-small;
+  }
+}
+
+.news {
+  h2 {
+    @extend %text-with-background;
+    @extend %background-with-italics;
+  }
+}
+
+.mail {
+  color: white;
+  @extend %alternate-stack;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.book {
+  color: white;
+  text-align: center;
+}
+
+// Single Show
+
+.band-details-header {
+  @extend %background-with-italics;
+}
+
+// =======
+// Gallery
+// =======
+
+.gallery-upcoming,
+.gallery-pictures {
+  h2 {
+    @extend %background-with-italics;
+  }
+}
+
+// =======
+// Booking
+// =======
+
