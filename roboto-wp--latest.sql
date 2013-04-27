@@ -333,7 +333,7 @@ INSERT INTO `wp_postmeta` VALUES (2,2,'_wp_trash_meta_status','publish');
 INSERT INTO `wp_postmeta` VALUES (3,2,'_wp_trash_meta_time','1367082003');
 INSERT INTO `wp_postmeta` VALUES (4,5,'_edit_last','1');
 INSERT INTO `wp_postmeta` VALUES (5,5,'_wp_page_template','front.php');
-INSERT INTO `wp_postmeta` VALUES (6,5,'_edit_lock','1367100811:1');
+INSERT INTO `wp_postmeta` VALUES (6,5,'_edit_lock','1367101051:1');
 INSERT INTO `wp_postmeta` VALUES (7,6,'_edit_last','1');
 INSERT INTO `wp_postmeta` VALUES (8,6,'_wp_page_template','gallery.php');
 INSERT INTO `wp_postmeta` VALUES (9,6,'_edit_lock','1367095137:1');
@@ -1334,4 +1334,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-04-27 18:13:46
+-- Dump completed on 2013-04-27 18:18:04
