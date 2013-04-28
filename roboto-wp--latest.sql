@@ -132,7 +132,7 @@ CREATE TABLE `wp_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=261 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=262 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -239,7 +239,7 @@ INSERT INTO `wp_options` VALUES (95,'widget_recent-comments','a:1:{s:12:\"_multi
 INSERT INTO `wp_options` VALUES (96,'widget_archives','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (97,'widget_meta','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (98,'sidebars_widgets','a:3:{s:19:\"wp_inactive_widgets\";a:1:{i:0;s:6:\"text-2\";}s:24:\"first-footer-widget-area\";a:0:{}s:13:\"array_version\";i:3;}','yes');
-INSERT INTO `wp_options` VALUES (99,'cron','a:4:{i:1367168414;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1367173612;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1367196298;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}','yes');
+INSERT INTO `wp_options` VALUES (99,'cron','a:4:{i:1367173612;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1367196298;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1367254814;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}','yes');
 INSERT INTO `wp_options` VALUES (101,'_site_transient_update_core','O:8:\"stdClass\":3:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":9:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:40:\"http://wordpress.org/wordpress-3.5.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":4:{s:4:\"full\";s:40:\"http://wordpress.org/wordpress-3.5.1.zip\";s:10:\"no_content\";s:51:\"http://wordpress.org/wordpress-3.5.1-no-content.zip\";s:11:\"new_bundled\";s:52:\"http://wordpress.org/wordpress-3.5.1-new-bundled.zip\";s:7:\"partial\";b:0;}s:7:\"current\";s:5:\"3.5.1\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"3.5\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1367162285;s:15:\"version_checked\";s:5:\"3.5.1\";}','yes');
 INSERT INTO `wp_options` VALUES (105,'_site_transient_update_themes','O:8:\"stdClass\":3:{s:12:\"last_checked\";i:1367166636;s:7:\"checked\";a:3:{s:12:\"roboto-theme\";s:0:\"\";s:12:\"twentyeleven\";s:3:\"1.5\";s:12:\"twentytwelve\";s:3:\"1.1\";}s:8:\"response\";a:0:{}}','yes');
 INSERT INTO `wp_options` VALUES (109,'_transient_random_seed','5a71eeff897a7853cdd9bfd6334a4129','yes');
@@ -298,7 +298,7 @@ INSERT INTO `wp_options` VALUES (253,'_transient_timeout_dash_de3249c4736ad3bd2c
 INSERT INTO `wp_options` VALUES (254,'_transient_dash_de3249c4736ad3bd2cd29147c4a0d43e','<h4>Most Popular</h4>\n<h5><a href=\'http://wordpress.org/extend/plugins/ultimate-tinymce/\'>Ultimate TinyMCE</a></h5>&nbsp;<span>(<a href=\'plugin-install.php?tab=plugin-information&amp;plugin=ultimate-tinymce&amp;_wpnonce=3b4e43b7d0&amp;TB_iframe=true&amp;width=600&amp;height=800\' class=\'thickbox\' title=\'Ultimate TinyMCE\'>Install</a>)</span>\n<p>Description: Beef up your visual tinymce editor with a plethora of advanced options.</p>\n<h4>Newest Plugins</h4>\n<h5><a href=\'http://wordpress.org/extend/plugins/wp-symposium-toolbar/\'>WP Symposium Toolbar</a></h5>&nbsp;<span>(<a href=\'plugin-install.php?tab=plugin-information&amp;plugin=wp-symposium-toolbar&amp;_wpnonce=a882ce06da&amp;TB_iframe=true&amp;width=600&amp;height=800\' class=\'thickbox\' title=\'WP Symposium Toolbar\'>Install</a>)</span>\n<p>Toolbar plugin for WP Symposium</p>\n','no');
 INSERT INTO `wp_options` VALUES (255,'_site_transient_timeout_theme_roots','1367168436','yes');
 INSERT INTO `wp_options` VALUES (256,'_site_transient_theme_roots','a:3:{s:12:\"roboto-theme\";s:7:\"/themes\";s:12:\"twentyeleven\";s:7:\"/themes\";s:12:\"twentytwelve\";s:7:\"/themes\";}','yes');
-INSERT INTO `wp_options` VALUES (257,'_site_transient_timeout_wporg_theme_feature_list','1367177442','yes');
+INSERT INTO `wp_options` VALUES (257,'_site_transient_timeout_wporg_theme_feature_list','1367177616','yes');
 INSERT INTO `wp_options` VALUES (258,'_site_transient_wporg_theme_feature_list','a:5:{s:6:\"Colors\";a:15:{i:0;s:5:\"black\";i:1;s:4:\"blue\";i:2;s:5:\"brown\";i:3;s:4:\"gray\";i:4;s:5:\"green\";i:5;s:6:\"orange\";i:6;s:4:\"pink\";i:7;s:6:\"purple\";i:8;s:3:\"red\";i:9;s:6:\"silver\";i:10;s:3:\"tan\";i:11;s:5:\"white\";i:12;s:6:\"yellow\";i:13;s:4:\"dark\";i:14;s:5:\"light\";}s:7:\"Columns\";a:6:{i:0;s:10:\"one-column\";i:1;s:11:\"two-columns\";i:2;s:13:\"three-columns\";i:3;s:12:\"four-columns\";i:4;s:12:\"left-sidebar\";i:5;s:13:\"right-sidebar\";}s:5:\"Width\";a:2:{i:0;s:11:\"fixed-width\";i:1;s:14:\"flexible-width\";}s:8:\"Features\";a:19:{i:0;s:8:\"blavatar\";i:1;s:10:\"buddypress\";i:2;s:17:\"custom-background\";i:3;s:13:\"custom-colors\";i:4;s:13:\"custom-header\";i:5;s:11:\"custom-menu\";i:6;s:12:\"editor-style\";i:7;s:21:\"featured-image-header\";i:8;s:15:\"featured-images\";i:9;s:15:\"flexible-header\";i:10;s:20:\"front-page-post-form\";i:11;s:19:\"full-width-template\";i:12;s:12:\"microformats\";i:13;s:12:\"post-formats\";i:14;s:20:\"rtl-language-support\";i:15;s:11:\"sticky-post\";i:16;s:13:\"theme-options\";i:17;s:17:\"threaded-comments\";i:18;s:17:\"translation-ready\";}s:7:\"Subject\";a:3:{i:0;s:7:\"holiday\";i:1;s:13:\"photoblogging\";i:2;s:8:\"seasonal\";}}','yes');
 INSERT INTO `wp_options` VALUES (259,'theme_mods_twentytwelve','a:1:{s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1367166642;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:1:{i:0;s:6:\"text-2\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}','yes');
 INSERT INTO `wp_options` VALUES (260,'theme_mods_roboto-theme','a:2:{i:0;b:0;s:18:\"nav_menu_locations\";a:1:{s:7:\"primary\";i:0;}}','yes');
@@ -1282,7 +1282,7 @@ CREATE TABLE `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1299,7 +1299,7 @@ INSERT INTO `wp_usermeta` VALUES (5,1,'rich_editing','true');
 INSERT INTO `wp_usermeta` VALUES (6,1,'comment_shortcuts','false');
 INSERT INTO `wp_usermeta` VALUES (7,1,'admin_color','fresh');
 INSERT INTO `wp_usermeta` VALUES (8,1,'use_ssl','0');
-INSERT INTO `wp_usermeta` VALUES (9,1,'show_admin_bar_front','true');
+INSERT INTO `wp_usermeta` VALUES (9,1,'show_admin_bar_front','false');
 INSERT INTO `wp_usermeta` VALUES (10,1,'wp_capabilities','a:1:{s:13:\"administrator\";b:1;}');
 INSERT INTO `wp_usermeta` VALUES (11,1,'wp_user_level','10');
 INSERT INTO `wp_usermeta` VALUES (12,1,'dismissed_wp_pointers','wp330_toolbar,wp330_saving_widgets,wp340_choose_image_from_library,wp340_customize_current_theme_link,wp350_media');
@@ -1311,6 +1311,9 @@ INSERT INTO `wp_usermeta` VALUES (17,1,'managenav-menuscolumnshidden','a:4:{i:0;
 INSERT INTO `wp_usermeta` VALUES (18,1,'metaboxhidden_nav-menus','a:4:{i:0;s:8:\"add-post\";i:1;s:8:\"add-show\";i:2;s:12:\"add-post_tag\";i:3;s:15:\"add-post_format\";}');
 INSERT INTO `wp_usermeta` VALUES (19,1,'closedpostboxes_post','a:1:{i:0;s:11:\"commentsdiv\";}');
 INSERT INTO `wp_usermeta` VALUES (20,1,'metaboxhidden_post','a:9:{i:0;s:6:\"acf_35\";i:1;s:6:\"acf_22\";i:2;s:11:\"postexcerpt\";i:3;s:13:\"trackbacksdiv\";i:4;s:10:\"postcustom\";i:5;s:11:\"commentsdiv\";i:6;s:7:\"slugdiv\";i:7;s:9:\"authordiv\";i:8;s:12:\"revisionsdiv\";}');
+INSERT INTO `wp_usermeta` VALUES (21,1,'aim','');
+INSERT INTO `wp_usermeta` VALUES (22,1,'yim','');
+INSERT INTO `wp_usermeta` VALUES (23,1,'jabber','test');
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1357,4 +1360,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-04-28 12:32:04
+-- Dump completed on 2013-04-28 13:46:55
