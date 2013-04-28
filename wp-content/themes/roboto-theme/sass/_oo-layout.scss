@@ -1,0 +1,24 @@
+@mixin one-half {
+  width: 50%;
+  float: left;
+}
+%one-half {
+  @include one-half;
+}
+
+
+@mixin one-third {
+  width: percentage(1/3);
+  float: left;
+}
+%one-third {
+  @include one-third;
+}
+
+
+@mixin one-sixth {
+  width: percentage(1/6);
+}
+%one-sixth {
+  @include one-sixth;
+}

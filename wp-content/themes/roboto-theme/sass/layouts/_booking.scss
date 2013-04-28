@@ -1,0 +1,14 @@
+.booking-band,
+.booking-promoter {
+  @include breakpoint($bp-med) {
+    @include one-half;
+  }
+}
+
+.booking-explanation,
+.booking-band,
+.booking-promoter {
+  @include breakpoint($bp-lrg) {
+    @include one-third;
+  }
+}

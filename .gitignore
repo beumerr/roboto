@@ -20,7 +20,7 @@ Thumbs.db
 ._*
 
 # Ignore Compass files
-.sass-cache
+.sass-cache/
 
 # Ignore Guardfile
 Guardfile

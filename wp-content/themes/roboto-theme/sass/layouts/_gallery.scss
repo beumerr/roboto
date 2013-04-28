@@ -1,0 +1,14 @@
+.gallery-about,
+.gallery-upcoming {
+  @include breakpoint($bp-med) {
+    @include one-half;
+  }
+}
+
+.gallery-about,
+.gallery-upcoming,
+.gallery-pictures {
+  @include breakpoint($bp-lrg) {
+    @include one-third;
+  }
+}
