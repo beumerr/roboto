@@ -1,0 +1,33 @@
+.news-item {
+  display: table-row;
+  margin-bottom: .25rem;
+
+  > a {
+    color: $secondary-color;
+  }
+
+  &.news-page {
+    @include breakpoint($bp-lrg) {
+      font-size: $font-lrg;
+    }
+  }
+}
+
+.news-item--date,
+.news-item--title {
+  display: table-cell;
+}
+
+.news-item--date {
+  @extend %default-font-bold;
+  color: $primary-color;
+  padding-right: 0.5rem;
+
+  @include breakpoint($bp-lrg) {
+    padding-right: 1.25rem;
+  }
+}
+
+.news--older-posts {
+  margin: #{$default-line-height}rem 0;
+}

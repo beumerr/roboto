@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
  
@@ -23,8 +23,6 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
  
-<script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
- 
 <?php
     /* We add some JavaScript to pages with the comment form
      * to support sites with threaded comments (when in use).
@@ -44,7 +42,7 @@
 <body <?php body_class(); ?>>
  
     <header role="banner" class="header-main">
-        <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><span class="the-mr">The Mr. </span>Roboto<span class="project"> Project</span></a></h1>
+        <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><span class="the-mr">The Mr. </span><span id="roboto">Roboto</span><span class="project"> Project</span></a></h1>
 
         <a class="footer-nav-button" href="#nav-footer">Menu</a>
 

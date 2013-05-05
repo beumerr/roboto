@@ -48,4 +48,9 @@
   & a .show-title {
     color: $quadernary-color;
   }
+
+  .day,
+  .month {
+    display: block;
+  }
 }

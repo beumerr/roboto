@@ -1,0 +1,30 @@
+.toggle-btn {
+  position: relative;
+}
+
+.toggle-arrow {
+  height: 1.2rem;
+  width: 1rem;
+  position: absolute;
+  right: .25rem;
+  // @include transition(.5s);
+
+  .open & {
+    @include transform(rotate(-90deg));
+  }
+}
+
+.band-info--picture-with-social {
+  .band-info--social,
+  > img {
+    margin-bottom: #{$default-line-height}rem;
+  }
+}
+
+.band-info--drawer {
+  padding-bottom: $default-line-height * 2rem;
+
+  > img {
+    margin-bottom: #{$default-line-height}rem;
+  }
+}

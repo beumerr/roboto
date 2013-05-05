@@ -1,0 +1,14 @@
+.footer-links {
+  border-top: .5rem solid $tertiary-color;
+
+  @include breakpoint($bp-med) {
+    text-align: right;
+  }
+}
+
+.footer-link {
+  padding: .5rem  0;
+  text-align: center;
+  display: inline-block;
+  text-transform: lowercase;
+}

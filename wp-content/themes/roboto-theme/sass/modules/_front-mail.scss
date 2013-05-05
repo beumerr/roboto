@@ -7,8 +7,8 @@
   font-size: $font-med;
   color: $quinary-color;
 
-  > p:last-child {
-    margin-bottom: 0;
+  > p {
+    margin: 0;
   }
 
   .mail-input {

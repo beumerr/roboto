@@ -1,17 +1,13 @@
 @include breakpoint($bp-med) {
-  .news,
-  .news-upcoming {
+  .news-article--header,
+  .news-article--content {
     width: 50%;
     float: left;
   }
 }
 
 @include breakpoint($bp-lrg) {
-  .news {
-    width: percentage(2/3);
-  }
-
-  .news-upcoming {
+  .news-article--header {
     width: percentage(1/3);
   }
 }

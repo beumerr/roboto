@@ -1,7 +1,11 @@
 .lead {
+  width: 100%;
+  @extend %cf;
+
   > img,
   .lead-content {
     @extend %alley;
+
   }
 
   .lead-show-date {
@@ -27,6 +31,8 @@
   }
 
   .day {
+    position: relative;
+    bottom: .5rem;
     font-size: 4rem;
   }
 
@@ -38,6 +44,9 @@
     a {
       color: $secondary-color;
       text-decoration: none;
+    }
+    @include breakpoint($bp-lrg) {
+      font-size: $font-xlrg;
     }
   }
 }

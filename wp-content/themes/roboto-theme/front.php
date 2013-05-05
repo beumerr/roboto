@@ -86,13 +86,13 @@ $my_query = new WP_Query( $upcomingargs );
 
 <?php } wp_reset_postdata(); ?>
   </ul>
-  <span><a href="shows">...More Shows</a></span>
+  <a class="more" href="shows">...More Shows</a>
 </div><!-- end .upcoming -->
 
 <div class="section blurb-news">
   <p class="front-blurb"><?php the_field( 'blurb' ); ?></p>
 
-<div class="news">
+<div class="front-news">
   <h2 class="section-title">News</h2>
   <ul>
 <?php $newsargs = array(
@@ -103,13 +103,13 @@ $my_query = new WP_Query( $newsargs );
   while ( $my_query->have_posts() ) { 
     $my_query->the_post();?>
 
-  <li>
-  <?php the_title(); ?>
+  <li class="news-item">
+    <span class="news-item--date"><?php echo get_the_date('n.j'); ?></span> <a class="news-item--title" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'starkers' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
   </li>
 
 <?php } wp_reset_postdata(); ?>
   </ul>
-  <span><a href="news">...More News</a></span>
+  <a class="more" href="news">...More News</a>
 </div><!-- end .news -->
 
 
@@ -118,11 +118,15 @@ $my_query = new WP_Query( $newsargs );
 <aside class="mail-book">
   <div class="section">
     <div class="front-mail">
-      <p><?php the_field( 'mailing_list' ); ?>
-      <form>
-        <input class="mail-input" type="email" placeholder="email@example.com">
-        <input class="btn" type="submit" value="Join">
+      <?php the_field( 'mailing_list' ); ?>
+      
+      <!-- Begin MailChimp Signup Form -->
+      <form action="http://therobotoproject.us7.list-manage1.com/subscribe/post?u=6f85833eb188a2429e00aacca&amp;id=df672c1e77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input type="email" value="" name="EMAIL" class="mail-input" id="mce-EMAIL" placeholder="email address" required>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
       </form>
+      <!--End mc_embed_signup-->
+      
     </div><!-- end .mail -->
   </div>
 

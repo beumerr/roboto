@@ -8,21 +8,16 @@ Template Name: Booking
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-  <article class="section booking-explanation">      
+  <div class="section booking-explanation">      
 
       <?php the_content(); ?>           
 
-  </article>
+  </div>
 
-  <aside class="section booking-band">
+  <aside class="section show-application">
     <h3 class="section-title">Band Application</h3>
-    <?php the_field("band_form") ?>
+    <?php the_field("show_application") ?>
     
-  </aside>
-
-  <aside class="section booking-promoter">
-    <h3 class="section-title">Promoter Application</h3>
-    <?php the_field("promoter_form") ?>    
   </aside>
 
 <?php endwhile; ?>

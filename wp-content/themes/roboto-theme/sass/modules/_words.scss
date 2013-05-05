@@ -1,0 +1,16 @@
+.words {
+  > ul {
+    font-size: $font-sm;
+    margin: 0 .75rem #{$default-line-height}rem;
+    > li {
+      &:before {
+        position: relative;
+        left: -.5rem;
+        content: "\00BB";
+        color: $primary-color;
+        display: inline-block;
+        margin-bottom: .25rem;
+      }
+    }
+  }
+}

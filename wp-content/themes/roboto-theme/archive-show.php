@@ -33,7 +33,12 @@ $my_query = new WP_Query( $chronoargs );
         <li class="show-item">
           <header class="show-item-header">
             <span class="date">
-              <?php $date = DateTime::createFromFormat('Ymd', get_field('date')); echo $date->format('M'); ?>  <?php $date = DateTime::createFromFormat('Ymd', get_field('date')); echo $date->format('j'); ?>
+              <span class="month">
+                <?php $date = DateTime::createFromFormat('Ymd', get_field('date')); echo $date->format('M'); ?> 
+              </span>
+              <span class="day">
+                <?php $date = DateTime::createFromFormat('Ymd', get_field('date')); echo $date->format('j'); ?>
+              </span>
             </span>
             <span class="show-title">
               <?php the_title(); ?>

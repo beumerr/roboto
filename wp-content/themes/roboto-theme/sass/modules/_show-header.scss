@@ -1,5 +1,4 @@
 .show-header {
-  text-align: right;
   @extend %alley-bottom;
 
   .header-primary,
@@ -8,6 +7,8 @@
   }
 
   @include breakpoint($bp-med) {
+  text-align: right;
+    
     .header-primary {
       margin-bottom: -.5rem;
     }
