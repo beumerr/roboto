@@ -1,10 +1,48 @@
+@mixin cf {
+  &:before,
+  &:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+
+  &:after {
+    clear: both;
+  }  
+}
+%cf {
+  @include cf;
+}
+
+
+
+@mixin five-sixths {
+  width: percentage(5/6);
+  float: left;
+}
+%five-sixths {
+  @include five-sixths;
+}
+
+
+
+@mixin two-thirds {
+  width: percentage(2/3);
+  float: left;
+}
+%two-thirds {
+  @include two-thirds;
+}
+
+
+
 @mixin one-half {
-  width: 50%;
+  width: percentage(1/2);
   float: left;
 }
 %one-half {
   @include one-half;
 }
+
 
 
 @mixin one-third {
@@ -16,9 +54,12 @@
 }
 
 
+
 @mixin one-sixth {
   width: percentage(1/6);
+  float: left;
 }
+
 %one-sixth {
   @include one-sixth;
 }

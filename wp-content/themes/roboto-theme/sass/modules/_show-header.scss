@@ -1,0 +1,15 @@
+.show-header {
+  text-align: right;
+  @extend %alley-bottom;
+
+  .header-primary,
+  > img {
+    @extend %alley-lr;
+  }
+
+  @include breakpoint($bp-med) {
+    .header-primary {
+      margin-bottom: -.5rem;
+    }
+  }
+}

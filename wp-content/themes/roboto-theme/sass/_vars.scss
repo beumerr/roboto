@@ -20,13 +20,26 @@ $tertiary-color:    $light-grey;
 $quadernary-color:  $dark-grey;
 $quinary-color:     white;
 
+// ==========
+// Typography
+// ==========
+
+$main-font-size: 16px;
+$default-line-height: 1.25;
+
+$font-sm : .75rem;
+$font-med: 1.5rem;
+$font-lrg: 2rem;
+$font-xlrg: 2.5rem;
+
+
 // ======
 // Layout
 // ======
 
-$alley:       .5em;
-$alley-med:   1em;
-$alley-lrg:   1.5em;
+$alley:       .5rem;
+$alley-med:   1rem;
+$alley-lrg:   1.5rem;
 
 
 // ================
@@ -35,31 +48,10 @@ $alley-lrg:   1.5em;
 
 @import "breakpoint";
 
-$breakpoints-to-ems: true;
+$breakpoint-to-ems: true;
 
 $bp-med: 600px;
 $bp-lrg: 900px;
+$bp-xlrg: 1200px;
 
 $bp-med-to-lrg: $bp-med ($bp-lrg - .1);
-
-
-
-// ==========
-// Typography
-// ==========
-
-@mixin default-stack {
-  font-family: 'SourceSansProRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-@mixin default-stack-italic {
-  font-family: 'SourceSansProItalic';
-}
-
-@mixin default-stack-bold {
-  font-family: 'SourceSansProBold';
-}
-
-@mixin alternate-stack {
-  font-family: 'nevis', Helvetica, "Helvetica Neue", Arial, sans-serif;
-}

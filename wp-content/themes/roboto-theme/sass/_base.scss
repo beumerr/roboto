@@ -1,9 +1,5 @@
 @import "reset.scss";
 
-// ==========
-// Typography
-// ==========
-
 @font-face {
     font-family: 'SourceSansProRegular';
     src: url('fonts/sourcesans/SourceSansPro-Regular-webfont.eot');
@@ -56,19 +52,43 @@
   @include box-sizing(border-box);
 }
 
-html {
-  padding: $alley / 2;
+@include breakpoint($bp-xlrg) {
+  html {
+    font-size: 120%;
+  }
+}
+
+body {
+  @include default-font;
   background: $quinary-color;
-  @include default-stack;
   color: $secondary-color;
+  -webkit-font-smoothing: antialiased;
+  padding: $alley / 2;
+  
+  @include breakpoint($bp-med) {
+    padding: $alley-med/2;
+  }
+  @include breakpoint($bp-lrg) {
+    padding: $alley-lrg/2;
+  }
+}
+
+p {
+  margin-bottom: #{$default-line-height}rem;
 }
 
 em, i {
-  @include default-stack-italic;
+  @include default-font-italic;
 }
 
 strong, b {
-  @include default-stack-bold;
+  @include default-font-bold;
+}
+
+small,
+sub,
+sup {
+  font-size: $font-sm;
 }
 
 a {
@@ -89,4 +109,10 @@ img {
 input,
 textarea {
   width: 100%;
+  border: none;
+  font-size: 1rem;
+}
+
+input {
+  line-height: $default-line-height;
 }

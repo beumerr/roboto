@@ -1,0 +1,21 @@
+.site-title {
+  @extend %alternate-font;
+  font-size: 3rem;
+
+  .the-mr,
+  .project {
+    @extend .visuallyhidden;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  @include breakpoint($bp-med) {
+    font-size: 6rem;
+  }
+
+  @include breakpoint($bp-lrg) {
+    font-size: 9rem;
+  }
+}

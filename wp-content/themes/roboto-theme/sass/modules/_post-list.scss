@@ -1,0 +1,48 @@
+$date-box-padding-top: .4rem;
+$date-box-size: 3rem+$date-box-padding-top;
+
+.post-list {
+
+  .post-list-item {
+    @extend %cf;
+    // @extend %alley-bottom;
+    margin-bottom: $alley;
+
+    position: relative;
+    min-height: $date-box-size;
+  }
+  
+  .date {
+    @extend %default-font-bold;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: $primary-color;
+    width: $date-box-size;
+    height: $date-box-size;
+    max-height: $date-box-size;
+    padding-top: $date-box-padding-top;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .post-title {
+    // @extend %alley-l;
+    padding-left: $alley;
+    margin-left: $date-box-size;
+    display: block;
+    color: $secondary-color;
+  }
+
+  .month,
+  .day {
+    display: block;
+    color: $quinary-color;
+  }
+
+  .day {
+    font-size: 2rem;
+  }
+}

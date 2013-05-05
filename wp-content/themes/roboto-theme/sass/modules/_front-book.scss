@@ -1,0 +1,14 @@
+.front-book {
+  @extend %alley-bottom;
+  @extend %default-font-bold;
+  padding: $alley-med;
+  background: $quadernary-color;
+  color: $quinary-color;
+  font-size: $font-med;
+  text-align: center;
+  text-decoration: none;
+}
+
+.book-link:hover {
+  text-decoration: none;
+}

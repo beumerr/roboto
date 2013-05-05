@@ -1,0 +1,13 @@
+.section {
+  @extend %alley;
+}
+
+.section-title {
+  @extend %header-secondary;
+  margin-bottom: $alley;
+}
+
+.section-title-grid {
+  @extend %header-secondary;
+  @extend %alley-bottom;
+}

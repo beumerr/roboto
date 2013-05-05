@@ -1,0 +1,51 @@
+.shows-chrono {
+  > header {
+    @extend %alley;
+  }
+
+  .shows-chrono-title {
+    @extend %header-secondary;
+  }
+
+  .show-item {
+    @extend %alley;
+
+    position: relative;
+  }
+
+  .show-item-header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: $alley $alley*2;
+    
+    background: $quinary-color;
+    background: transparentize($quinary-color, .2);
+    @include transition(.5s);
+    text-shadow: -1px 1px $quinary-color;
+  }
+
+  .show-item:hover .show-item-header {
+    background: transparentize($quinary-color, .1);
+  }
+
+  .date,
+  .show-title {
+    display: table-cell;
+  }
+
+  .date {
+    @extend %default-font-bold;
+    text-align: center;
+  }
+
+  .show-title {
+    padding-left: $alley;
+  }
+
+  & a .show-title {
+    color: $quadernary-color;
+  }
+}

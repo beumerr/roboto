@@ -50,7 +50,7 @@ if ( ! function_exists( 'starkers_menu' ) ):
  * @since Starkers HTML5 3.0
  */
 function starkers_menu() {
-	echo '<nav><ul><li><a href="'.get_bloginfo('url').'">Home</a></li>';
+	echo '<nav role="main" class="nav-main"><ul>';
 	wp_list_pages('title_li=');
 	echo '</ul></nav>';
 }

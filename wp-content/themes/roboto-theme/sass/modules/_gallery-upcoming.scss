@@ -1,0 +1,11 @@
+.gallery-upcoming--item {
+  > header {
+    margin-bottom: #{$default-line-height}rem;
+  }
+
+  @extend %alley-bottom;
+}
+
+.gallery-upcoming--title {
+  @extend %default-font-bold;
+}

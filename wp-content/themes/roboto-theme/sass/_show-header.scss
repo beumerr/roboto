@@ -1,0 +1,8 @@
+.show-header {
+  text-align: right;
+
+  .header-primary,
+  > img {
+    @extend %alley-lr;
+  }
+}

@@ -46,11 +46,11 @@
     <header role="banner" class="header-main">
         <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><span class="the-mr">The Mr. </span>Roboto<span class="project"> Project</span></a></h1>
 
-        <button><a class="footer-nav-link" href="#nav-footer">Menu</a></button>
+        <a class="footer-nav-button" href="#nav-footer">Menu</a>
 
-        <nav role="navigation" class="nav-main">
-            <?php wp_nav_menu( array( 'container' => false, 'fallback_cb' => 'starkers_menu', 'theme_location' => 'primary' ) ); ?>
+        <nav role="banner" class="nav-main">
+        <?php wp_nav_menu( array( 'container' => false, 'fallback_cb' => 'starkers_menu', 'theme_location' => 'primary' ) ); ?>
         </nav>
     </header>
 
-    <div class="content-main">
+    <main class="site-main">

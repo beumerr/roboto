@@ -1,4 +1,4 @@
-  </div><!-- end .content-main -->
+  </main><!-- end .site-main -->
 	<footer role="contentinfo" class ="footer-main">
 
   <ul>
@@ -16,8 +16,8 @@
 
   </ul>
 
-  <h2 class="title-footer-nav">Menu</h2>  
-  <nav class="nav-main" id="nav-footer">
+  <nav class="nav-main-footer" id="nav-footer">
+    <h1 class="title-footer-nav">Menu</h1>  
     <?php wp_nav_menu( array( 'container' => false, 'theme_location' => 'primary' ) ); ?>
   </nav>
 </footer>

@@ -1,0 +1,7 @@
+.front-blurb {
+  @extend %default-font-italic;
+  padding: $alley-med;
+  background: $quadernary-color;
+  color: $quinary-color;
+  font-size: $font-lrg;
+}

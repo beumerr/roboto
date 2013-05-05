@@ -1,0 +1,23 @@
+.footer-nav-button {
+  @extend %alternate-font;
+  font-size: $font-med;
+  padding: .5rem;
+  margin: .5rem;
+
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: auto;
+
+  background: $quadernary-color;
+  border: none;
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  @include breakpoint($bp-med) {
+    display: none;
+  }
+}

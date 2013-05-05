@@ -1,0 +1,40 @@
+%alley-bottom {
+  margin-bottom: $alley;
+  
+  @include breakpoint($bp-med) {
+    margin-bottom: $alley-med;
+  }
+
+  @include breakpoint($bp-lrg) {
+    margin-bottom: $alley-lrg;
+  }
+}
+
+%alley-lr {
+  padding: 0 $alley/2;
+  
+  @include breakpoint($bp-med) {
+    padding: 0 $alley-med/2;
+  }
+  
+  @include breakpoint($bp-lrg) {
+    padding: 0 $alley-lrg/2;
+  }
+}
+
+%alley-l {
+  padding-left: $alley;
+  
+  @include breakpoint($bp-med) {
+    padding-left: $alley-med;
+  }
+
+  @include breakpoint($bp-lrg) {
+    padding-left: $alley-lrg;
+  }
+}
+
+%alley {
+  @extend %alley-bottom;
+  @extend %alley-lr;
+}

@@ -1,0 +1,17 @@
+@include breakpoint($bp-med) {
+  .space-pictures-container,
+  .about-info {
+    width: 50%;
+    float: left;
+  }
+}
+
+@include breakpoint($bp-lrg) {
+  .about-info {
+    width: percentage(1/3);
+  }
+
+  .space-pictures-container {
+    width: percentage(2/3);
+  }
+}

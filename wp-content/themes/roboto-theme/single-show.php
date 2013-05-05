@@ -2,71 +2,78 @@
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-  <header>
-    <h1><?php the_title(); ?></h1>
+  <header class="show-header">
+    <h1 class="header-primary"><?php the_title(); ?></h1>
     <?php $attachment_id = get_field('lead_image'); echo wp_get_attachment_image( $attachment_id, 'widescreen-large' ); ?>
   </header>
 
-  <article class="show-info">
+  <article class="section show-info">
     <span class="date"><?php $date = DateTime::createFromFormat('Ymd', get_field( 'date' ) ); echo $date->format('l, F n, Y'); ?></span>
     <span class="time">Doors: <?php the_field( 'time' ); ?></span>
     <span class="price">Price: $<?php the_field( 'price' ) ?></span>
     <p class="description"><?php the_field( 'description' ); ?></p>
 
     <?php if(get_field('band')): ?>
-    <h2 class="band-details-header">Band Details</h2>
-    <ul class="bands">
-      <?php while(has_sub_field('band')): ?>
-      <li>
-        <h3><?php the_sub_field('band_name'); ?></h3>
-        <?php $attachment_id = get_sub_field('band_photo'); echo wp_get_attachment_image( $attachment_id, 'widescreen-small' ); ?>
-        
-        <?php if( 
-          get_sub_field( 'band') ||
-          get_sub_field( 'band_bc') ||
-          get_sub_field( 'band_fb') ||
-          get_sub_field( 'band_ms' ) ||
-          get_sub_field( 'band_tw')  
-        ) { ?>
-        <ul class="band-social">
-          <?php if( get_sub_field( 'band') ) { ?>
-          <li class="website"><a href="<?php the_sub_field( 'band'); ?>">Official Website</a></li>
-          <?php } ?>
-          <?php if( get_sub_field( 'band_bc') ) { ?>
-          <li class="bandcamp"><a href="<?php the_sub_field( 'band_bc'); ?>">Bandcamp</a></li>
-          <?php } ?>
-          <?php if( get_sub_field( 'band_fb') ) { ?>
-          <li class="facebook"><a href="<?php the_sub_field( 'band_fb'); ?>">Facebook</a></li>
-          <?php } ?>
-          <?php if( get_sub_field( 'band_ms' ) ) { ?>
-          <li class="myspace"><a href="<?php the_sub_field( 'band_ms' ); ?>">Twitter</a></li>
-          <?php } ?>
-          <?php if( get_sub_field( 'band_tw') ) { ?>
-          <li class="twitter"><a href="<?php the_sub_field( 'band_tw'); ?>">Myspace</a></li>
-          <?php } ?>
-        </ul>
-        <?php } ?>
+    <section>
+      <h2 class="section-title">Performer Details</h2>
+      <ul class="bands">
+        <?php while(has_sub_field('band')): ?>
+        <li>
+          <h3 class="btn"><?php the_sub_field('band_name'); ?></h3>
+          <?php $attachment_id = get_sub_field('band_photo'); echo wp_get_attachment_image( $attachment_id, 'widescreen-small' ); ?>
+          
+          <?php if( 
+            get_sub_field( 'band') ||
+            get_sub_field( 'band_bc') ||
+            get_sub_field( 'band_fb') ||
+            get_sub_field( 'band_ms' ) ||
+            get_sub_field( 'band_tw')  
+          ) { ?>
+          <div class="band-detail">
+            <ul class="band-social">
+              <?php if( get_sub_field( 'band_site') ) { ?>
+              <li class="social-link"><a class="social-icon social-website" href="<?php the_sub_field( 'band_site' ); ?>">Official Website</a></li>
+              <?php } ?>
+              <?php if( get_sub_field( 'band_bc') ) { ?>
+              <li class="social-link"><a class="social-icon social-bandcamp" href="<?php the_sub_field( 'band_bc' ); ?>">Bandcamp</a></li>
+              <?php } ?>
+              <?php if( get_sub_field( 'band_fb') ) { ?>
+              <li class="social-link"><a class="social-icon social-facebook" href="<?php the_sub_field( 'band_fb' ); ?>">Facebook</a></li>
+              <?php } ?>
+              <?php if( get_sub_field( 'band_ms' ) ) { ?>
+              <li class="social-link"><a class="social-icon social-twitter" href="<?php the_sub_field( 'band_ms' ); ?>">Twitter</a></li>
+              <?php } ?>
+              <?php if( get_sub_field( 'band_tw') ) { ?>
+              <li class="social-link"><a class="social-icon social-myspace" href="<?php the_sub_field( 'band_tw' ); ?>">Myspace</a></li>
+              <?php } ?>
+            </ul>
+            <?php } ?>
 
-        <p><?php the_sub_field('band_bio'); ?></p>
-        <div><?php the_sub_field('band_media'); ?></div>
-      </li>
-      <?php endwhile; ?>
-    </ul><!-- end .bands -->
+            <p><?php the_sub_field('band_bio'); ?></p>
+            <div><?php the_sub_field('band_media'); ?></div>
+          </div><!-- end .band-detail -->
+        </li>
+        <?php endwhile; ?>
+      </ul><!-- end .bands -->
+    </section>
     <?php endif; ?>
 
-  </article><!-- end .show-info -->
+  </article><!-- end .section .show-info -->
 
   <aside class="show-meta">
-    <ul class="show-social">
-      <?php if( get_field( "facebook_rsvp" ) ): ?>
-      <li><a href="<?php the_field( "facebook_rsvp" ); ?>">Facebook RSVP</a></li>
-      <?php endif; ?>
-      <li><a href="http://twitter.com/share">Tweet</a></li>
-    </ul>
-    <div class="flyer">
-      <h2>Flyer</h2>
-      <?php $attachment_id = get_field('flyer'); echo wp_get_attachment_image( $attachment_id, 'portrait-small' ); ?>
-    </div>
+    <section class="section show-social">
+      <h2 class="section-title">Share</h2>
+      <ul>
+        <?php if( get_field( "facebook_rsvp" ) ): ?>
+        <li><a class="btn" href="<?php the_field( "facebook_rsvp" ); ?>">Facebook RSVP</a></li>
+        <?php endif; ?>
+        <li><a class="btn" href="http://twitter.com/share">Tweet</a></li>
+      </ul>
+    </section>
+    <section class="section flyer">
+        <h2 class="section-title">Flyer</h2>
+        <?php $attachment_id = get_field('flyer'); echo wp_get_attachment_image( $attachment_id, 'portrait-small' ); ?>
+    </section>
   </aside>
 
 

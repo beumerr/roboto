@@ -1,6 +1,8 @@
 .header-main,
-.content-main,
+.site-main,
 .footer-main {
+  @extend %cf;
+  width: 100%;
   max-width: 75em;
   margin: 0 auto;
 }

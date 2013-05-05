@@ -1,0 +1,19 @@
+.shows-chrono {
+  @extend %cf;
+}
+
+@include breakpoint($bp-med) {
+  .shows-chrono .show-item {
+    @include one-half;
+  }
+}
+
+@include breakpoint($bp-lrg) {
+  .shows-chrono {
+    @include two-thirds;
+  }
+
+  .shows-recent {
+    @include one-third;
+  }
+}

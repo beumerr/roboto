@@ -1,0 +1,19 @@
+.front-mail {
+  @extend %alley-bottom;
+  @extend %alternate-font;
+  text-align: center;
+  padding: $alley-med;
+  background: $primary-color;
+  font-size: $font-med;
+  color: $quinary-color;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+
+  .mail-input {
+    @extend %default-font-italic;
+    text-align: center;
+    color: $quadernary-color;
+  }
+}

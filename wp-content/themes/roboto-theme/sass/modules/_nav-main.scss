@@ -1,0 +1,40 @@
+.nav-main {
+  display: none;
+  
+  .menu {
+    @extend %alley;
+  }
+  
+  .menu-item {
+    font-size: $font-med;
+    margin: 0 .5rem .5rem .5rem;
+    @extend %alternate-font;
+    display: inline-block;
+    border-bottom: 3px solid $quinary-color;
+
+    > a {
+      color: $quadernary-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+      border-color: $primary-color;
+    }
+  }
+
+  .current-menu-item {
+    border-color: $primary-color;
+  }
+
+  @include breakpoint($bp-med) {
+    display: inline;
+  }
+
+  @include breakpoint($bp-lrg) {
+    .menu-item {
+    }
+  }
+}

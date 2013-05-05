@@ -1,22 +1,15 @@
 <?php get_header(); ?>
  
-<?php while ( have_posts() ) : the_post(); ?>
- 
-<?php /* How to display all other posts. */ ?>
-     
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-         
-    	<header>
-            <h2><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'starkers' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
- 
-            <?php starkers_posted_on(); ?>
-        </header>
+<ul>
+    <?php while ( have_posts() ) : the_post(); ?>
+    <li class="news-item">
+        <span class="news-item--date"><?php echo get_the_date('n.j'); ?></span> <a class="news-item--title" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'starkers' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+    </li>
+    <?php endwhile; ?>
+</ul>
 
-    </article>
-  
-<?php endwhile; // End the loop. Whew. ?>
+<aside
  
-<?php /* Display navigation to next/previous pages when applicable */ ?>
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
     <nav>
         <?php next_posts_link( __( '&larr; Older posts', 'starkers' ) ); ?>

@@ -1,0 +1,20 @@
+.space-pictures {
+  @extend %cf;
+  > header,
+  > footer {
+    @extend %alley;
+  }
+
+  .space-pictures-title {
+    @extend %header-secondary;
+  }
+
+  > img {
+    @extend %alley;
+    @extend %one-half;
+
+    @include breakpoint($bp-med-to-lrg) {
+      @include one-third;
+    }
+  }
+}

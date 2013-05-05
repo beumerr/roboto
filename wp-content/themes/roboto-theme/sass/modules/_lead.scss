@@ -1,0 +1,43 @@
+.lead {
+  > img,
+  .lead-content {
+    @extend %alley;
+  }
+
+  .lead-show-date {
+    @extend %default-font-bold;
+    display: inline-block;
+
+    width: 6rem;
+    height: 6rem;
+
+    text-align: center;
+    background: $primary-color;
+    color: white;
+    text-transform: lowercase;
+  }
+
+  .month,
+  .day {
+    display: block;
+  }
+
+  .month {
+    font-size: 2rem;
+  }
+
+  .day {
+    font-size: 4rem;
+  }
+
+  .show-title {
+    @extend .header-primary;
+    display: inline-block;
+    font-size: $font-lrg;
+    margin-top: $alley;
+    a {
+      color: $secondary-color;
+      text-decoration: none;
+    }
+  }
+}

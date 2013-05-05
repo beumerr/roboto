@@ -1,0 +1,34 @@
+.lead,
+.mail-book {
+  @extend %cf;
+}
+
+@include breakpoint($bp-med) {
+
+  .lead {
+      img,
+      .lead-content {
+      @include one-half;
+    }
+  }
+
+  .upcoming,
+  .blurb-news {
+    @include one-half;
+  }
+}
+
+@include breakpoint($bp-med-to-lrg) {
+  .mail-book .section {
+    @include one-half;
+  }
+}
+
+
+@include breakpoint($bp-lrg) {
+  .upcoming,
+  .blurb-news,
+  .mail-book {
+    @include one-third;
+  }
+}

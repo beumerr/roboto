@@ -1,0 +1,15 @@
+.nav-main-footer {
+  .title-footer-nav {
+    @extend %header-secondary;
+    font-size: $font-med;
+  }
+
+  .menu-item > a {
+    @extend .btn;
+  }
+
+  @include breakpoint($bp-med) {
+    display: none;
+    font-size: $font-med;
+  }
+}
